@@ -1,0 +1,159 @@
+body {
+	background: #FFF;
+	color: #4E4E4E;
+}
+@media only screen and (max-width: 768px) {
+	.mobile_left{
+		display:none !important;
+	}
+	.mobile_center_left1{
+		display:none !important;
+	}
+	.mobile_center_left2{
+		display:none !important;
+	}
+	.mobile_leftinfo{
+		display:none !important;
+	}
+	.mobile_center_right{
+		display:none !important;
+	}
+}
+#wrapper {
+	background: none;
+}
+p, body, td, ul, li {
+	font: 11px/16px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+p.body-text {
+margin-top:0;
+}
+.filename {  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-style: normal; 
+	color: #006633
+}
+.mmy {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	line-height: 20px; 
+	font-weight: bold; 
+	color: #53822E;
+}
+.mmy-founder { 
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 11px; 
+	line-height: 16px; 
+	font-weight: normal; 
+	color: #000000;
+}
+.reading {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	line-height: 17px; 
+	font-weight: bold; 
+	color: #407921;
+}
+div.SubMenu {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	color: #CC3300;
+	text-decoration: none;
+	background-color:#FFFFFF;
+	margin:0;
+	padding:0;
+}
+div.SubMenu a:link, div.SubMenu a:visited {
+	font: bold 12px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #CC3300;
+	text-decoration: none;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:0;
+} 
+
+div.SubMenu a:hover, div.SubMenu a:active {
+	text-decoration: underline;
+}
+.body-intro { 
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	line-height: 26px; 
+	color: #000000; 
+	font-weight: normal;
+}
+.subhead_veda { font-family: "Times New Roman", Times, serif; font-size: 16px; line-height: 26px; }
+.title_Veda { font-family: "Times New Roman", Times, serif; font-size: 36px; line-height: 44px; font-weight: bold; color: #0a0a8c;
+}
+
+table#tm_column {
+border-top:1px solid #FFFFFF;
+}
+table#tm_column td {
+padding:0 14px 10px 14px;
+}
+table#tm_column td#mmypic {
+padding-top:14px;
+}
+table#tm_column td#citation {
+padding-top:14px;
+padding-right:14px;
+}
+table#tm_column p.learnTM {
+	text-align:center;
+	padding:8px 0 2px 0;
+	vertical-align:middle; 
+}
+table#tm_column p.learnTM a:link, table#tm_column p.learnTM a:visited {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	line-height: 18px; 
+	font-weight: bold; 
+	color: #CC3300;
+	text-decoration: none;
+}
+table#tm_column p.learnTM a:hover {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	line-height: 18px; 
+	font-weight: bold; 
+	color: #cc3300;
+	text-decoration: underline;
+}
+/* older style */
+  a.learnTM:link,   a.learnTM:visited {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	line-height: 18px; 
+	font-weight: bold; 
+	color: #CC3300;
+	text-decoration: none;
+}
+  a.learnTM:hover {  
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14px; 
+	line-height: 18px; 
+	font-weight: bold; 
+	color: #cc3300;
+	text-decoration: underline;
+}
+
+td#citation {
+padding-top:14px;
+padding-right:14px;
+}
+
+
+
+.MMY_TM {
+	font: bold 11px/16px "Times New Roman", Times, serif;
+	margin-top:0;
+}
+.reading {  font-family: "Times New Roman", Times, serif; font-size: 14px; line-height: 17px; font-weight: bold; color: #407921}
+a.reading:link { font-family: "Times New Roman", Times, serif; font-size: 14px; line-height: 17px; font-weight: bold; color: #407921; text-decoration: none}	
+a.reading:hover { font-family: "Times New Roman", Times, serif; font-size: 14px; line-height: 17px; font-weight: bold; color: #CC3200; text-decoration: underline}
+a.reading:visited {  font-family: "Times New Roman", Times, serif; font-size: 14px; line-height: 17px; font-weight: bold; color: #407921; text-decoration: none}

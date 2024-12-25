@@ -1,0 +1,568 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#container {
+	background-repeat: repeat-y;
+	background-position: center;
+	background-image: url(../images/cosmic_background.jpg);
+	width: 1507px;
+	height: 1500px;
+	background-attachment: scroll;
+	margin-top: -15px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+	
+#container2 {
+	background-color: #069;	
+	height: 500px;
+	width: 500px;
+	margin-top: -250px;
+	margin-left: 50px;
+
+	}
+	
+	
+#maharishi {
+	background-image: url(../images/maharishi2.jpg);
+	width: 98px;
+	height: 112px;
+	display: block;
+	margin-left: 350px;
+	padding-top: 0px;
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	left: 0px;
+	top: -38px;
+	}
+
+h1 { 
+	font-size: 13pt;
+	letter-spacing: 5.85px;
+	line-height: 22.85pt;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Adobe Caslon Pro";
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: -1px 2px 5px rgba(152, 78, 13, 0.75);
+	text-shadow-blend-mode: multiply;
+	padding-top: 10px;
+	padding-left: 420px;
+	padding-right: 390px;
+	
+	}
+#banner1{
+	background-color: #f7e6c4;
+	height: 40px;
+	width: 1500px;
+	margin-left: 4px;
+	box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	padding-top: 0px;
+	
+	}
+	
+#banner2{
+	padding-top: 0px;
+	height: 40px;
+	width: 1500px;
+	background-image: url(../images/banner.png);
+	}
+
+#logo h2 {
+	font-family: "Adobe Caslon Pro";
+	font-size: 19pt;
+	letter-spacing: 5px;
+	line-height: 22.85pt;
+	text-align: center;
+	font-weight: bold;
+	color: #0755b5;
+	text-transform: uppercase;	
+	margin-left: 420px;
+	margin-right: 390px;
+	margin-top: 10px;
+	}
+
+
+#border {
+	border-bottom: 1px solid #d78b1e;
+	margin-top: -35px;
+	margin-left: 485px;
+	margin-right: 436px;
+	}
+	
+#quote {
+	font-family: "Adobe Caslon Pro";
+	font: "Adobe Caslon Pro";
+	
+	}	
+	
+blockquote {
+	font-family: "Adobe Caslon Pro";
+	font: "Adobe Caslon Pro";
+	font-size: 12pt;
+	color: #0755b5;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #0755b5;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 22.85px;
+	margin: auto;
+	margin-top: -14px;
+	margin-left: 400px;
+	margin-right: 415px;
+	}
+	
+#content {
+	background-color: #FFF;
+	height: 185px;
+	width: 800px;
+	margin-top: 85px;
+	box-shadow: 1px 0px 29px 0px rgba(231, 149, 62, .44);
+	-moz-box-shadow: 1px 0px 29px 0px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 29px 0px rgba(213, 106, 10, 0.75);
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	
+	}
+#gradient {
+	background-image: linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	height: 275px;
+	
+	}
+	
+#gradient1? {
+	background-image: linear-gradient(bottom, rgb(255,255,255)50%, rgb(255,239,183)93%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	height: 100px;
+	margin-bottom:
+	
+	
+	}
+	
+#navbanner{
+	background-image: url(../images/banner.png);
+	height: 63px;
+	width: 800px;
+	box-shadow: 1px 0px 25px 10px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 25px 0px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 25px 0px rgba(213, 106, 10, 0.75);
+	
+	}
+	
+#gradientbanner {
+	background-color: #d78b1e;
+	height: 63px;
+	width: 800px;
+	box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	
+	}
+
+#coloum1 {
+	background-color: #ffedb3;
+	height: 1500px;
+	width: 202px;
+	float: left;
+	margin-left: -198px;
+	
+}
+
+#bottomgradient{
+	background-color: #000;
+	height: 50px;
+	width: 900px;
+	float: left;
+	margin-top: 200px;
+	z-index: -1;
+	position: relative;
+
+	}
+
+#coloum2 {
+	background-color: #ffedb3;
+	height: 1500px;
+	width: 202px;
+	float: right;
+	margin-right: -198px;
+	
+}
+
+
+#navigation {
+	text-align: center;
+	margin: auto;
+	background-image: url(../images/buttons_banner.jpg);
+	position: relative;
+	height: 63px;
+	width: 800px;
+	margin-top: -10px;
+	
+}
+
+#buttons {
+	float: left;
+	padding-top: 0px;
+	margin-top: 5px;
+	margin: auto;
+	margin-left: 15px;
+	margin-right: 40px;
+	margin-top: 5px;
+	font-family: "Georgia";
+	list-style: none;
+	display: block
+	letter-spacing: -1px;
+	text-align: center;	
+	
+	}
+	
+	
+#buttons li {
+	display: block;
+	float: left;
+	margin-right: -10px;
+	line-height: 19px;
+	height: 60px;
+}
+
+
+#buttons li a:link, #buttons li a:visited {
+	font-size: 11pt;
+	color: #0755b5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: inherit;
+	height: 20px;
+	padding-right: 15px;
+	outline: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0755b5;
+	
+	}    
+
+#buttons li a:hover {
+	color:#FFF;
+		}
+
+#buttons li a:active {
+	
+	color: #FFF;
+	}
+#buttons li a: visited: {#FF0;}
+
+
+#buttons2 {
+	float: left;
+	padding-top: 0px;
+	margin-top: -15px;
+	margin-left: 0px
+	margin-right: 0px
+	font-family: "Georgia";
+	list-style: none;
+	display: block;
+	letter-spacing: -1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	margin-bottom: -40px;
+	}
+	
+
+#buttons2 li {
+	display: block;
+	float: left;
+	margin-right: 18px;
+	line-height: 19px;
+	height: 60px;
+	
+}
+	
+#buttons2 li a:link, #buttons2 li a:visited {
+	font-size: 11pt;
+	color: #0755b5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: inherit;
+	height: 20px;
+	padding-right: 12px;
+	outline: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0755b5;
+	font: inherit;
+}
+
+
+#buttons2 li a:hover {color:#FFF;}
+#buttons2 li a:active {color: #FFFFFFFFF;}
+#buttons2 li a: visited {color:#FFF;}
+
+
+#text {
+	font-size: 19pt;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 20px;
+	margin-top: -90px;
+	margin-bottom: -90px;
+	padding-right: 180px;
+	color: #d78b1e;
+	font-family: Raja;
+	
+	}
+	
+	
+#textname {
+	
+	margin-top: -5px
+	margin-left: -15px;
+	margin-right: -100px;
+
+	
+	}	
+
+
+	
+#chapterbuttons {
+	float: left;
+	padding-top: 0px;
+	margin-top: 5px;
+	margin: auto;
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-top: 5px;
+	font-family: "Georgia";
+	list-style: none;
+	display: block;
+	letter-spacing: -1px;
+	text-align: center;
+	
+			}
+	
+#chapterbuttons li {
+	display: block;
+	float: left;
+	margin-right: -10px;
+	line-height: 19px;
+	height: 60px;
+}
+
+#chapterbuttons li a:link, #chapterbuttons li a:visited {
+	font-size: 16pt;
+	color: #d78b1e;
+	text-transform: capitalize;
+	letter-spacing: normal;
+	text-decoration: none;
+	display: block;
+	width: inherit;
+	height: 20px;
+	padding-right: 15px;
+	margin-left: -5px;
+	margin-right: 0px;
+	outline: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d78b1e;	
+		}    
+
+#chapterbuttons li a:hover {color:#0755b5;}
+#chapterbuttons li a:active {color: #0755b5;}
+#chapterbuttons li a: visited {color:#FFF;}
+
+
+#verses {
+	border-top: 1px solid #d78b1e
+	margin-left: -20px;
+	margin-right: -100px;
+	position: relative;
+	
+
+	}
+
+#border0 {
+	border-top:  1px solid #d78b1e;
+	margin-right: -120px;
+	margin-left: -20px;
+	}
+
+
+#border1{
+	
+	border-bottom:  1px solid #d78b1e;
+	margin-top: 38px;
+	margin-right: -5px;	
+	}
+
+
+#vedictext{
+	text-color: #0755b5;
+	font-weight: normal;
+	position: relative;
+	
+	}
+	
+	
+h3 {
+	text-align: left;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: -150px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 36pt;
+	font-family: Raja;
+	margin-bottom: 0px;
+	left: -2px;
+	top: -3px;
+	}
+	
+p {
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 155px;
+	padding-right: 100px;
+	padding-top: 20px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 23pt;
+	font-family: Raja;
+	}
+	
+	
+.paragraph{
+	
+	text-align: left;
+	margin-left: 25px;
+	margin-top: -85px;
+	margin-right: -40px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 14pt;
+	font-family: Raja;
+		
+	}
+
+.paragraph1{
+	
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 200px;
+	padding-right: 250px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 13pt;
+	font-family: Raja;
+		
+	}
+
+#border2 {
+	
+	border-bottom:  2px solid #d78b1e;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: -25px;
+	
+	
+	
+	}
+
+#charak_physiology
+{
+	background-image: url(../images/CharakSamhita.gif);
+	height: 188px;
+	width: 145px;
+    float: right;
+	position: absolute;
+	margin-left: 500px;		
+	margin-top: -230px;
+	border: 2px solid #F60;
+	
+	}
+#larger {
+	
+	padding-top: 188px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 10pt;
+	margin-left: 9px;
+	font-family: Arial;
+	}
+
+
+#human_physiology {
+	position:absolute;
+	height: 116px;
+	width: 81px;
+	float: left;	
+	margin-left: 15px;
+	}
+#quote_human_physiology {
+	
+	margin-left: 120px;
+	
+	
+	}
+	
+	
+#border3 {
+	border-bottom:  2px solid #d78b1e;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+	}
+	
+	
+	
+#pdf {
+	text-align: left;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 0px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 16pt;
+	font-family: Raja;
+	margin-top: -20px;
+	
+	
+}
+	
+	
+	
+#shiksha_list {
+	font-size: 11.5pt;
+	font-family: Raja;
+	margin-top:  -30px;
+	font-weight: normal;
+	color: #0755b5;
+	a:link {color:#0755b5;}      /* unvisited link */
+	a:visited {color:#00FF00;}  /* visited link */
+	a:hover {color:# F90;}  /* mouse over link */
+	a:active {color:#0000FF;}  /* selected link */
+	
+} 

@@ -1,0 +1,623 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Mobile Navigation */
+.nav-mobile {
+	display:none; /* Hide from browsers that don't support media queries */
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:-15px;
+	background: url(../images/nav.svg) no-repeat center center;
+	height:40px;
+	width:100px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+/*  Media Queries */
+ 
+@media only screen and (max-width: 768px) {
+	
+	.nav-mobile {
+		display:block !important;
+	}
+	
+	#buttonaffect{
+		pointer-events: auto!important;
+		cursor: auto !important;
+	}
+	#container {
+	width: 100% !important;
+		
+	}
+	
+	#content {
+	width: 100% !important;
+	position:relative !important;
+		
+	}
+	#navbanner{
+	width: 100% !important;
+	height: auto!important;	
+	}
+	
+	.navigation {
+		width:100%!important;
+		padding:40px 0 0!important;		
+		margin: auto!important;
+		background-image: url(../images/buttons_banner.jpg)!important;
+		margin: auto!important;		
+		height: auto!important;		
+	
+	}
+	#text {	
+	margin-top: 91px!important;
+	
+	}
+	.nav-list {
+		display:none!important;
+	}
+	.buttons {
+		width:100%!important;
+		float:none!important;
+		
+	}
+	
+	.nav-active {
+		display:block!important;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+	#gradientbanner {
+	
+	height: auto!important;
+	width: 100% !important;
+		
+	}
+	.paragraph1{
+	width:90% !important;
+	margin-right: 5px !important;
+	padding-right: 0px !important;
+	margin-left: 5px!important;
+	margin-top: 0px!important;
+
+	
+	}
+	.paragraph{	
+	margin-left: 5px !important;
+	margin-top: 10px !important;
+	margin-right: 10px !important;
+	
+		
+	}
+	p {
+	margin-left: 0px !important;
+	margin-top: 10px !important;
+	padding-right: 0px !important;
+	padding-left: 5px!important;	
+	
+	}
+	h3 {
+	margin-left: 10px!important;
+	margin-top: 10px!important;	
+	
+	}
+	
+	#shikska_physiology
+	{	
+	margin-left: 0px  !important;		
+	margin-top:-20px  !important;
+	
+	margin-right:10px!important;
+	
+	}
+	#human_physiology {
+		
+	margin-left: 5px!important;
+	}
+	#quote_human_physiology {
+	
+	margin-left: 10px!important;
+	
+	
+	}
+	#border2 {
+	margin-right: 5px!important;
+	margin-left: 5px!important;
+	margin-top: 10px!important;	
+	margin-bottom: 5px!important;
+	
+	}
+	#border3 {
+	margin-right: 5px!important;
+	margin-left: 5px!important;
+	margin-top: 120px!important;	
+	margin-bottom: -5px!important;
+	}
+	#border4{
+	margin-right: 5px!important; 
+	margin-left: 5px!important;
+	}
+	h1 { 
+	font-size: 9pt !important;
+	letter-spacing: 0px !important;
+	line-height: 17pt !important;
+	padding-left: 100px!important;
+	
+	}
+	#logo h2 {
+	font-size: 9pt!important;
+	letter-spacing: 1px !important;
+	margin-top: -1px !important;
+	margin-left: 100px!important;
+	position:relative!important;
+	}
+	
+	#border {
+		display:none!important;
+	}
+	#maharishi {
+	background-image: url(../images/maharishi.jpg)!important;
+	width: 95px!important;
+	height: 112px!important;
+	
+	
+	}
+	blockquote {
+	font-size: 10pt!important;
+	
+	}
+	
+	#expandshrink{
+	width: 100%!important;
+   
+	
+	}	
+
+}	
+
+
+
+
+/* 
+Desktop CSS */
+
+body{
+	
+	background-repeat: repeat-y;
+	background-position: center;
+	background-image: url(../images/cosmic_background.jpg);		
+	background-attachment: scroll;
+
+}
+
+
+#container {
+	width: 800px;
+	height: 100%;
+	margin-top: -15px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+	
+
+	
+	
+#maharishi {
+	background-image: url(../images/maharishi.jpg);
+	width: 98px;
+	height: 112px;
+	display: block;
+	margin-left: auto;
+	padding-top: 0px;
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	left: 0px;
+	
+	}
+
+h1 { 
+	font-size: 13pt;
+	letter-spacing: 5.85px;
+	line-height: 22.85pt;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Adobe Caslon Pro";
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: -1px 2px 5px rgba(152, 78, 13, 0.75);
+	text-shadow-blend-mode: multiply;
+	padding-top: 10px;
+	padding-left: 120px;
+	padding-right: auto;
+	
+	}
+#banner1{
+	background-color: #f7e6c4;
+	height: 40px;
+	width: 100%;
+	margin-left: 4px;
+	box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(213, 106, 10, 0.75);
+	padding-top: 0px;
+	
+	}
+	
+#banner2{
+	padding-top: 0px;
+	height: 40px;
+	width: 100%;
+	background-image: url(../images/banner.png);
+	}
+
+#logo h2 {
+	font-family: "Adobe Caslon Pro";
+	font-size: 19pt;
+	letter-spacing: 5px;
+	line-height: 22.85pt;
+	text-align: left;
+	font-weight: bold;
+	color: #0755b5;
+	text-transform: uppercase;	
+	margin-left: 125px;
+	margin-right: auto;
+	margin-top: 10px;
+	}
+
+
+#border {
+	border-bottom: 1px solid #d78b1e;
+	margin-top: -14px;
+	margin-left: 120px;
+	margin-right: 50px;
+	}
+	
+#quote {
+	font-family: "Adobe Caslon Pro";
+	font: "Adobe Caslon Pro";
+	
+	}	
+	
+blockquote {
+	font-family: "Adobe Caslon Pro";
+	font: "Adobe Caslon Pro";
+	font-size: 12pt;
+	color: #0755b5;
+	letter-spacing: -1px;
+	text-align: left;
+	color: #0755b5;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 22.85px;
+	margin: auto;
+	margin-top: -14px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#content {
+	background-color: #FFF;
+	height: 100%;
+	width: 800px;
+	margin-top: 85px;
+	margin-bottom:0;
+	box-shadow: 1px 0px 29px 0px rgba(231, 149, 62, .44);
+	-moz-box-shadow: 1px 0px 29px 0px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 29px 0px rgba(213, 106, 10, 0.75);
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	
+	}
+#gradient {
+	background-image: linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	height: auto;
+	
+	}
+	
+#gradient1? {
+	background-image: linear-gradient(bottom, rgb(255,255,255)50%, rgb(255,239,183)93%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 50%, rgb(255,239,183) 93%);
+	
+	
+	
+	
+	}
+	
+#navbanner{
+	background-image: url(../images/banner.png);
+	height: 63px;
+	width: 800px;
+	box-shadow: 1px 0px 25px 10px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 25px 0px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 25px 0px rgba(213, 106, 10, 0.75);
+	
+	}
+	
+#gradientbanner {
+	background-color: #d78b1e;
+	height: 63px;
+	width: 800px;
+	box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	-moz-box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	-webkit-box-shadow: 1px 0px 18px 6px rgba(213, 106, 10, 0.75);
+	
+	}
+
+
+
+#bottomgradient{
+	background-color: #000;
+	height: 50px;
+	width: 900px;
+	float: left;
+	margin-top: 200px;
+	z-index: -1;
+	position: relative;
+
+	}
+
+
+
+
+.navigation {
+	text-align: center;
+	margin: auto;
+	background-image: url(../images/buttons_banner.jpg);
+	position: relative;
+	height: 63px;
+	width: 800px;
+	margin-top: -10px;
+	
+}
+
+.buttons {
+	float: left;
+	padding-top: 5px;
+	margin-top: 5px;
+	margin: auto;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Georgia";
+	list-style: none;
+	display: block
+	letter-spacing: -1px;
+	text-align: center;	
+
+	
+	}
+
+.buttons  a:link, .buttons  a:visited {
+	font-size: 11pt;
+	color: #0755b5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: inherit;
+	height: 20px;
+	padding-right: 5px;
+	outline: none;
+	
+	}    
+
+.buttons  a:hover {
+	color:#FFF;
+		}
+
+.buttons  a:active {
+	
+	color: #FFF;
+	}
+.buttons  a: visited: {#FF0;}
+
+
+	
+
+#border1{
+	
+	border-bottom:  1px solid #d78b1e;
+	margin-top: 38px;
+	margin-right: -5px;	
+	}
+
+
+#vedictext{
+	color: #0755b5;
+	font-weight: normal;
+	
+	
+	}
+	
+	
+h3 {
+	text-align: left;	
+	margin-left: 25px;
+	margin-top: 0px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 36pt;
+	font-family: Raja;
+	margin-bottom: 0px;
+	left: -2px;
+	top: -3px;
+	}
+	
+p {
+	margin-top: 10px;
+	text-align: justify;
+    text-justify: inter-word;
+	padding-left: 25px;	
+	padding-right: 25px;
+	padding-top: 20px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 23pt;
+	font-family: Raja;
+	}
+	
+	
+.paragraph{	
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 14pt;
+	font-family: Raja;
+		
+	}
+
+.paragraph1{
+	
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-right: 200px;
+	padding-right: 150px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 13pt;
+	font-family: Raja;
+		
+	}
+
+
+#border2 {
+	
+	border-bottom:  2px solid #d78b1e;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: -25px;
+	
+	
+	
+	}
+
+#shikska_physiology
+{
+	background-image: url(../images/Shiksha_small.gif);
+	height: 188px;
+	width: 145px;
+	float: right;	
+	margin-top: -170px;
+	margin-right:100px;
+	border: 2px solid #F60;
+	
+	}
+#larger {
+	
+	padding-top: 188px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 10pt;
+	margin-left: 9px;
+	font-family: Arial;
+	}
+
+
+#human_physiology {
+	height: 116px;
+	width: 81px;
+	float: left;	
+	margin-left: 15px;
+	}
+#quote_human_physiology {
+	
+	margin-left: 120px;
+	
+	
+	}
+	
+	
+#border3 {
+	border-bottom:  2px solid #d78b1e;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: -15px;
+	}
+#border4{
+	border-bottom: 2px solid #d78b1e; 
+	margin-top: 20px; 
+	margin-right: 20px; 
+	margin-left: 20px;
+}
+	
+	
+	
+#pdf {
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 0px;
+	font-weight: normal;
+	color: #0755b5;
+	font-size: 16pt;
+	font-family: Raja;
+	margin-top: -20px;
+	
+	
+}
+	
+	
+	
+#shiksha_list {
+	font-size: 11.5pt;
+	font-family: Raja;
+	margin-top:  -30px;
+	font-weight: normal;
+	color: #0755b5;
+}
+	a:link {color:#0755b5;}      /* unvisited link */
+	a:visited {color:#00FF00;}  /* visited link */
+	a:hover {color:# F90;}  /* mouse over link */
+	a:active {color:#0000FF;}  /* selected link */
+	
+  
+#expandshrink{
+	width: 100%;
+   	
+	}
+i {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+  border-color:green;
+  float:right;
+ 
+}
+#up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+	display:none;
+}
+
+#down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+	
+}
+#buttonaffect{
+	width:100%;
+	pointer-events: none;
+	background:none;
+	border:none;
+	cursor: not-allowed;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+} 
